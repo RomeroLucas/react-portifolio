@@ -1,0 +1,105 @@
+
+
+header {
+    background: var(--primaryColor);
+    width: 100%;
+    height: 10vh;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 2px solid var(--secondaryColor);
+    transition: .5s;
+}
+
+h3 {
+    font-size: var(--font-xl);
+    color: var(--fontColor);
+    font-weight: 700;
+    width: 20%;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    transition: .2s;
+}
+
+span {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+}
+
+.nav-item {
+    color: var(--fontColor);
+    font-size: var(--font-n);
+    text-transform: uppercase;
+    display: inline-block;
+    align-items: center;
+    padding: 5px 15px;
+    transition: .5s;
+}
+
+h3:hover {
+    cursor: pointer;
+    text-shadow: 0px 0px 13px var(--alternateColor);
+    transition: .2s;
+}
+
+.nav-item:hover {
+    text-shadow: 0px 0px 13px var(--altColor);
+    transition: .2s;
+    border-bottom: 2px solid var(--fontColor);
+}
+
+.icons {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+
+    header {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        height: 10vh;
+        border-radius: 30% 30% 0 0;
+        box-shadow: 0px 0px 8px var(--altColor);
+        padding: 0;
+        border-top: 2px solid var(--secondaryColor);
+        z-index: 9999;
+    }
+
+    h3 {
+        display: none;
+    }
+
+    span {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        padding: 1rem 2rem;
+        justify-content: space-between;
+        align-items: center;
+        overflow: auto;
+    }
+
+    .nav-item {
+        font-size: var(--font-xs);
+        width: 150px;
+        border-right: 2px solid var(--secondaryColor);
+    }
+    .icons {
+        display: block;
+        font-size: large;
+    }
+
+    .nav-item:hover {
+        text-shadow: 0px 0px 13px var(--altColor);
+        transition: .2s;
+        border-bottom: unset;
+    }
+    
+}

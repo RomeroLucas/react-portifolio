@@ -1,0 +1,12 @@
+.subtitle {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 3vh;
+}
+
+p {
+    text-align: justify;
+    width: 80%;
+    margin: 0 auto;
+}

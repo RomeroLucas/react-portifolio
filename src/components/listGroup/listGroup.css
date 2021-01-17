@@ -1,0 +1,27 @@
+.list-group {
+    margin: 15px auto;
+    padding: 1rem;
+    background: var(--secondaryColor);
+    width: 80%;
+    max-width: 400px;
+    border-radius: 24px;
+}
+
+.list-title {
+    border-bottom: 2px solid var(--primaryColor);
+    font-size: var(--font-n);
+    text-shadow: 0px 0px 8px black;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .list-group {
+        width: 80%;
+    }
+}
