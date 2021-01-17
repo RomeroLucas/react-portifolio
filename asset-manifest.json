@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-portifolio/static/css/main.845b9e0d.chunk.css",
+    "main.js": "/react-portifolio/static/js/main.4b066ef5.chunk.js",
+    "main.js.map": "/react-portifolio/static/js/main.4b066ef5.chunk.js.map",
+    "runtime-main.js": "/react-portifolio/static/js/runtime-main.ef1dee84.js",
+    "runtime-main.js.map": "/react-portifolio/static/js/runtime-main.ef1dee84.js.map",
+    "static/js/2.b1487b38.chunk.js": "/react-portifolio/static/js/2.b1487b38.chunk.js",
+    "static/js/2.b1487b38.chunk.js.map": "/react-portifolio/static/js/2.b1487b38.chunk.js.map",
+    "index.html": "/react-portifolio/index.html",
+    "static/css/main.845b9e0d.chunk.css.map": "/react-portifolio/static/css/main.845b9e0d.chunk.css.map",
+    "static/js/2.b1487b38.chunk.js.LICENSE.txt": "/react-portifolio/static/js/2.b1487b38.chunk.js.LICENSE.txt",
+    "static/media/jogosCards.gif": "/react-portifolio/static/media/jogosCards.b6bc04d2.gif",
+    "static/media/marketingCards.gif": "/react-portifolio/static/media/marketingCards.cacd50d0.gif",
+    "static/media/outrosCards.gif": "/react-portifolio/static/media/outrosCards.60a3189d.gif",
+    "static/media/sitesCards.gif": "/react-portifolio/static/media/sitesCards.4d90e981.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ef1dee84.js",
+    "static/js/2.b1487b38.chunk.js",
+    "static/css/main.845b9e0d.chunk.css",
+    "static/js/main.4b066ef5.chunk.js"
+  ]
+}
