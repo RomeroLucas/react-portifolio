@@ -14,7 +14,7 @@ export function ListItem(props) {
     <div className="list-item" key={props.dados.key}>
         <img src={require(`../../assets/icon/${props.dados.icon}`).default} alt="icons" />
         <span>{props.dados.skill}</span>
-        <span>{props.dados.exp}</span>
+        <span>{props.dados.comp}</span>
     </div>
     )
 }
