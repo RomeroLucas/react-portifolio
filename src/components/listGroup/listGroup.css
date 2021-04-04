@@ -17,11 +17,24 @@
     display: flex;
     align-items: center;
     width: 80%;
-    margin: 0 auto;
+    margin: 1px auto;
+    padding: 2px;
+}
+
+.list-item img {
+    width: 45px;
+    height: 30px;
+    object-fit: contain;
 }
 
 @media only screen and (max-width: 600px) {
     .list-group {
         width: 80%;
     }
+}
+
+/* HOVER EFFECTS */
+.list-group:nth-child(2) .list-item:hover {
+    cursor: pointer;
+    background-color: var(--primaryColor);
 }

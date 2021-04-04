@@ -13,9 +13,12 @@ export const skills = [
 
 export const refs = [
     {
-        icon: 'htmlIcon.png',
+        icon: 'aluraIcon.png',
         skill : 'Alura',
         comp : `2 certificados`,
+        titulo: '',
+        inst: '',
+        dur: '',
         certs: [
             require(`../assets/img/certs/alura/marketing.jpg`).default, 
             require(`../assets/img/certs/alura/programacao.jpg`).default
@@ -23,9 +26,12 @@ export const refs = [
         key : 1
     },
     {
-        icon: 'htmlIcon.png',
+        icon: 'recodeIcon.png',
         skill : 'Recode', 
-        comp : `3 certificados`, 
+        comp : `3 certificados`,
+        titulo: 'Certificado de Conclusão',
+        inst: 'Recode Pro',
+        dur: '540h',
         certs: [
             require(`../assets/img/certs/recode/conclusao.jpg`).default, 
             require(`../assets/img/certs/recode/colaborativo.png`).default, 
@@ -34,9 +40,12 @@ export const refs = [
         key : 2
     },
     {
-        icon: 'htmlIcon.png', 
+        icon: 'sololearnIcon.png', 
         skill : 'SoloLearn', 
-        comp : `6 certificados`, 
+        comp : `6 certificados`,
+        titulo: '',
+        inst: '',
+        dur: '',
         certs: [
             require(`../assets/img/certs/sololearn/react.jpg`).default, 
             require(`../assets/img/certs/sololearn/js.jpg`).default,

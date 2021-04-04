@@ -1,10 +1,19 @@
 import React, { useState, useEffect } from 'react'
+import {useSelector, useDispatch} from 'react-redux'
+
 import TextArea from '../../components/textArea'
 import {ListGroup, ListItem} from '../../components/listGroup'
+import CardCerts from '../../components/cardCerts'
+
+
 import {skills, refs} from '../../data/sobre'
 
 
 export default function MainSobre() {
+    const certificados = useSelector(state => state.carrossel)
+    const dispatch = useDispatch()
+
+    const ativar = ({target}) => dispatch({type: target.item.skill, payload: target.item})
 
 return(
     <section>
@@ -25,10 +34,13 @@ return(
 
         <ListGroup groupTitle="Referências">
             {refs.map(item => {
-                return <ListItem dados={item} key={item.key} />
+                return <a onClick={()=> {dispatch({type: item.skill, payload: item})}}><ListItem dados={item} key={item.key} /></a>
             })}
         </ListGroup>
     </div>
+
+        <CardCerts />
+
     </section>
 )
 }
